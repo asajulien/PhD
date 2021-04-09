@@ -1,0 +1,4 @@
+geemap
+jupyterlab
+earthengine-api
+pandas
