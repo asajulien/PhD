@@ -2,3 +2,4 @@ geemap
 jupyterlab
 earthengine-api
 pandas
+seaborn
