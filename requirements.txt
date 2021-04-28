@@ -3,3 +3,4 @@ jupyterlab
 earthengine-api
 pandas
 seaborn
+statsmodels
