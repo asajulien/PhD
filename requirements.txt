@@ -6,4 +6,5 @@ seaborn
 statsmodels
 sklearn
 bioinfokit
+xarray_leaflet
 
