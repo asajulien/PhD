@@ -2,9 +2,11 @@ geemap
 jupyterlab
 earthengine-api
 pandas
+numpy
 seaborn
 statsmodels
 sklearn
 bioinfokit
 xarray_leaflet
-
+geopandas
+gdal
