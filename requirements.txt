@@ -10,3 +10,5 @@ bioinfokit
 xarray_leaflet
 geopandas
 gdal
+rasterstats
+fiona
