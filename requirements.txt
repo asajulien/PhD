@@ -12,3 +12,5 @@ geopandas
 gdal
 rasterstats
 fiona
+pyjanitor
+xgboost
