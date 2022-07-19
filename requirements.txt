@@ -16,3 +16,4 @@ pyjanitor
 xgboost
 localtileserver
 netCDF4
+cartopy
