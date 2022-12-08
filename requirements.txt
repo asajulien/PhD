@@ -17,3 +17,4 @@ xgboost
 localtileserver
 netCDF4
 cartopy
+contextily
