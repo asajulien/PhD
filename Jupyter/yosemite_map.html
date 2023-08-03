@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9c72b8415560407b9267669e86663e9e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9c72b8415560407b9267669e86663e9e" ></div>
+        
+</body>
+<script>    
+    
+            var map_9c72b8415560407b9267669e86663e9e = L.map(
+                "map_9c72b8415560407b9267669e86663e9e",
+                {
+                    center: [37.7449, -119.5937],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3452cbc1407b43da901faa7afe8d447a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var marker_a04d47269f6f4f829570ab1b9ec84c0a = L.marker(
+                [37.7158, -119.6772],
+                {}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var div_icon_be410286801f4effb4badcc3e2388401 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 16px; color: white; background-color: blue; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;\"\u003e1\u003c/div\u003e"});
+            marker_a04d47269f6f4f829570ab1b9ec84c0a.setIcon(div_icon_be410286801f4effb4badcc3e2388401);
+        
+    
+            marker_a04d47269f6f4f829570ab1b9ec84c0a.bindTooltip(
+                `<div>
+                     Tunnel View
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b6b96e82a1544acb42f60d073e331b7 = L.marker(
+                [37.716723, -119.651117],
+                {}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var div_icon_73b8eba5eded4afb9ac8627250d21f15 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 16px; color: white; background-color: blue; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;\"\u003e2\u003c/div\u003e"});
+            marker_6b6b96e82a1544acb42f60d073e331b7.setIcon(div_icon_73b8eba5eded4afb9ac8627250d21f15);
+        
+    
+            marker_6b6b96e82a1544acb42f60d073e331b7.bindTooltip(
+                `<div>
+                     Bridal Veil Falls
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25f599e51fc742a2a3711f56b6fa7e9d = L.marker(
+                [37.744014, -119.58984],
+                {}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var div_icon_b542e4b5676044968eb14a03ef1f878b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 16px; color: white; background-color: blue; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;\"\u003e3\u003c/div\u003e"});
+            marker_25f599e51fc742a2a3711f56b6fa7e9d.setIcon(div_icon_b542e4b5676044968eb14a03ef1f878b);
+        
+    
+            marker_25f599e51fc742a2a3711f56b6fa7e9d.bindTooltip(
+                `<div>
+                     Merced River
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83926038bcbe495fa2a20039af7b5203 = L.marker(
+                [37.73487, -119.566437],
+                {}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var div_icon_cf305edef95d4b48b8863d02782ea16c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 16px; color: white; background-color: blue; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;\"\u003e4\u003c/div\u003e"});
+            marker_83926038bcbe495fa2a20039af7b5203.setIcon(div_icon_cf305edef95d4b48b8863d02782ea16c);
+        
+    
+            marker_83926038bcbe495fa2a20039af7b5203.bindTooltip(
+                `<div>
+                     Vernal Falls PARKING
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8176e6c0f024b7490a603f423fd569d = L.marker(
+                [37.73286, -119.557816],
+                {}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var div_icon_19a2c448e078414ea4de986525978587 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 16px; color: white; background-color: blue; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;\"\u003e5\u003c/div\u003e"});
+            marker_a8176e6c0f024b7490a603f423fd569d.setIcon(div_icon_19a2c448e078414ea4de986525978587);
+        
+    
+            marker_a8176e6c0f024b7490a603f423fd569d.bindTooltip(
+                `<div>
+                     Vernal Falls Trailhead
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b454d1314654c9d85d11c825ee0aad5 = L.marker(
+                [37.747057, -119.574862],
+                {}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var div_icon_81e9f58c40e94b57bc0ad4aa4e79fecd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 16px; color: white; background-color: blue; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;\"\u003e6\u003c/div\u003e"});
+            marker_6b454d1314654c9d85d11c825ee0aad5.setIcon(div_icon_81e9f58c40e94b57bc0ad4aa4e79fecd);
+        
+    
+            marker_6b454d1314654c9d85d11c825ee0aad5.bindTooltip(
+                `<div>
+                     Ahwahnee Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7645e19f9381430c9cbd192d498696af = L.marker(
+                [37.746344, -119.596215],
+                {}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var div_icon_177ddb0f10f64182b1cd0f3ad7ba1af6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 16px; color: white; background-color: blue; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;\"\u003e7\u003c/div\u003e"});
+            marker_7645e19f9381430c9cbd192d498696af.setIcon(div_icon_177ddb0f10f64182b1cd0f3ad7ba1af6);
+        
+    
+            marker_7645e19f9381430c9cbd192d498696af.bindTooltip(
+                `<div>
+                     Lower Yosemite Falls Trailhead
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b7f4b4dcc9d42468927bda78d8ca9ca = L.marker(
+                [37.726968, -119.63019],
+                {}
+            ).addTo(map_9c72b8415560407b9267669e86663e9e);
+        
+    
+            var div_icon_ef0e0ce9d85042ceaf5a6d296bb0c38a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 16px; color: white; background-color: blue; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;\"\u003e8\u003c/div\u003e"});
+            marker_1b7f4b4dcc9d42468927bda78d8ca9ca.setIcon(div_icon_ef0e0ce9d85042ceaf5a6d296bb0c38a);
+        
+    
+            marker_1b7f4b4dcc9d42468927bda78d8ca9ca.bindTooltip(
+                `<div>
+                     El Capitan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
