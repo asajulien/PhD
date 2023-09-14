@@ -9,7 +9,6 @@ sklearn
 bioinfokit
 xarray_leaflet
 geopandas
-gdal
 rasterstats
 fiona
 pyjanitor
