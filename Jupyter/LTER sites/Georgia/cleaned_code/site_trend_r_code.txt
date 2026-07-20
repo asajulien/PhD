@@ -1,0 +1,26 @@
+library(readxl)
+df_rest_sites <- read.csv("C:/Users/arj26323/Documents/Data/GA_conservation/df_rest_sites.csv")
+View(df_rest_sites)
+
+df <- df_rest_sites
+library(nlme)
+
+m2 <- lme(
+  biomass ~ year + PostInstall + YearSinceInstall,
+  random = ~ YearSinceInstall | Site,
+  correlation = corAR1(form = ~ year | Site),
+  data = df,
+  method = "REML"
+)
+
+m3 <- lme(
+  flats_mean ~ year + PostInstall + YearSinceInstall,
+  random = ~ 1 | Site,
+  correlation = corAR1(form = ~ year | Site),
+  data = df,
+  method = "REML"
+)
+
+summary(m2) #AGB effect
+summary(m3) #Flooding effect
+
